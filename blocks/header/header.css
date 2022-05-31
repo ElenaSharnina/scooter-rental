@@ -1,0 +1,48 @@
+.header {
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  color: white;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__link-phone {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color:  #B8FF20;
+  transition: color .3s ease-in-out;
+}
+
+.header__phonenumber {
+  color: white;
+  transition: color .3s ease-in-out;
+}
+
+.header__link-phone:hover,
+.header__link-phone:hover .header__phonenumber {
+  color: #CDF478;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navigation__item {
+  transition: color .3s ease-in-out;
+}
+.navigation__item:hover {
+  color: #CDF478;
+}

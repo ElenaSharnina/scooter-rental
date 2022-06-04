@@ -38,7 +38,7 @@
   font-size: 26px;
   font-weight: 700;
   color: #18171a;
-  transition: background-color .3s ease-in-out, border-color .2s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 .hero__btn:hover {
@@ -51,4 +51,53 @@
 
 .hero__btn:active {
   background-color: #b8ff20;
+}
+
+@media screen and (max-width: 1279px) {
+  .hero {
+    padding-top: 160px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .hero {
+    padding-top: 150px;
+  }
+  .hero__title {
+    font-size: 80px;
+    margin-bottom: 4px;
+  }
+  .hero__subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .hero__btn {
+    min-width: 260px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .hero {
+    padding-top: 260px;
+    padding-bottom: 40px;
+  }
+  .hero__title {
+    font-size: 50px;
+  }
+  .hero__subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .hero__btn {
+    min-width: 290px;
+  }
+  .hero {
+    margin-bottom: 25px;
+  }
 }

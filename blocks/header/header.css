@@ -46,3 +46,47 @@
 .navigation__item:hover {
   color: #CDF478;
 }
+
+@media screen and (max-width: 1023px) {
+  .header__logo {
+    width: 110px;
+    height: 23px;
+  }
+  .navigation__item {
+    font-size: 14px;
+  }
+  .header__phonenumber {
+    font-size: 14px;
+  }
+  .header__container {
+    gap: 15px;
+  }
+  .navigation__list {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header__link-phone {
+    position: absolute;
+    top: 23px;
+    right: 15px;
+  }
+  .navigation__item {
+    font-size: 12px;
+  }
+  .header__logo {
+    align-self: flex-start;
+  }
+  .header__navigation {
+    padding-top: 20px;
+  }
+  .header__container {
+    gap: 0;
+  }
+}

@@ -3,3 +3,16 @@
   margin: 0 auto;
   padding: 0 72px;
 }
+
+@media screen and (max-width: 1023px) {
+  .container {
+    padding: 0 29px;
+  }
+}
+
+
+@media screen and (max-width: 730px) {
+  .container {
+    padding: 0 15px;
+  }
+}
